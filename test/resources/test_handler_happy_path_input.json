@@ -1,0 +1,27 @@
+{
+  "requestContext": {
+    "elb": {
+      "targetGroupArn": "arn:aws:elasticloadbalancing:eu-central-1:111111111111:targetgroup/tf-20201029074915826700000001/6497e19957631588"
+    }
+  },
+  "httpMethod": "POST",
+  "path": "/pubsub_sqs_relay/",
+  "queryStringParameters": {},
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate,br",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwNWVmMjBjNDUxOTFlZmY2NGIyNWQzODBkNDZmZGU1NWFjMjI5ZDEiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJodHRwczovL2VudHJhbmNlLm5vbmxpdmUub3hwZWNrZXIucGxhdGZvcm0ub3R0by5kZTo4NDQzL3B1YnN1Yl90b19zcXMvIiwiYXpwIjoiMTE1OTY0MjM5MjMzMzMxNjM2NTkwIiwiZW1haWwiOiJyZWxheS1zZXJ2aWNlLWFjY291bnRAZ2NwLWl0LWxzLXNlYWhvcnNlLW5vbmxpdmUuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZXhwIjoxNjA0MDQ1MDI5LCJpYXQiOjE2MDQwNDE0MjksImlzcyI6Imh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbSIsInN1YiI6IjExNTk2NDIzOTIzMzMzMTYzNjU5MCJ9.csdQPejpBQVo1osNA0Bl1tLfExUNvkASbtrriJ_vzHe75TL8M0M6VY4I4s2QY8wbPKAjn7WVeIvT0dbOR05KKFixzsCxq8FJPxlxl8m3wdDj13TyIT2nKaD865r-ZHQdhLL4RlzgyKmmX8BvwNQQCD7shNWAK675NBYWtSnLMucLNxOc6ZXlWioAC3uBOgzyvsDsfWqhjVTCUkiYDGBKx3XJUZGSTKYjdhnHbCbRX2-4sBMU5TDLyM9P3MQ_95h0hTDg_lGyiZRYVRMEZwnlh2u0LUhfrThINibBohJjdM-W3icsT_Pts0Pw-hnwHnQ77NGirNreZDBwhan94i3vYA",
+    "connection": "keep-alive",
+    "content-length": "324",
+    "content-type": "application/json",
+    "from": "noreply@google.com",
+    "host": "my.loadbalancer.endpoint",
+    "user-agent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+    "x-amzn-trace-id": "Root=1-5f9bbad6-7fb7f14a09a0e2b87dcbd80c",
+    "x-forwarded-for": "66.102.6.231",
+    "x-forwarded-port": "8443",
+    "x-forwarded-proto": "https"
+  },
+  "body": "{\"deliveryAttempt\":1,\"message\":{\"data\":\"TUFSQ0VM\",\"messageId\":\"1652603445624370\",\"message_id\":\"1652603445624370\",\"publishTime\":\"2020-10-30T07:03:47.631Z\",\"publish_time\":\"2020-10-30T07:03:47.631Z\"},\"subscription\":\"projects/my-project/subscriptions/relay-helloworld-helloworld-output-dummyteam2-subscription\"}\n",
+  "isBase64Encoded": false
+}

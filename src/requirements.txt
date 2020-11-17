@@ -1,0 +1,5 @@
+gcp-jwt
+assertpy
+mock
+nose
+boto3
